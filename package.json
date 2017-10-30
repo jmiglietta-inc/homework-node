@@ -2,10 +2,13 @@
   "scripts": {
     "test": "node test.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "download-package-tarball": "^1.0.7"
+  },
   "devDependencies": {
-    "get-folder-size": "~1.0.0",
-    "tape": "~4.6.0",
-    "run-series": "^1.1.4"
+    "get-folder-size": "^1.0.0",
+    "run-series": "^1.1.4",
+    "tape": "^4.6.3"
   }
 }
