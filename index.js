@@ -127,7 +127,7 @@ function downloadPackageSet(offset, count, callback) {
 							__semaphore--
 						}						
 					} else {
-						console.log(response.request.uri)
+						console.log("request failed to return pkg " + response.request.uri)
 						__semaphore--
 					}
 				})				
